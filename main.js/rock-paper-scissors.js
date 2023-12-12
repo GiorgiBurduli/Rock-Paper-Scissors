@@ -63,8 +63,8 @@ let result = '';
     document.querySelector('.js-result').innerHTML = result;
 
     document.querySelector('.js-moves').innerHTML = `You
-     <img src="game images/${playerMove}.png" class="move-icon" >
-    <img src="game images/${computerMove}.png" class="move-icon"> Computer`;
+     <img src="images/${playerMove}.png" class="move-icon" >
+    <img src="images/${computerMove}.png" class="move-icon"> Computer`;
 
 
 }
@@ -90,7 +90,3 @@ return computerMove;
 
 }
 
-// ss
-asdsa
-
-asdsa
