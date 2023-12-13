@@ -62,9 +62,17 @@ let result = '';
 
     document.querySelector('.js-result').innerHTML = result;
 
-    document.querySelector('.js-moves').innerHTML = `You
-    <img src="../images/${playerMove}.png" class="move-icon" >
-    <img src="../images/${computerMove}.png" class="move-icon"> Computer`;
+    // document.querySelector('.js-moves').innerHTML = `You
+    // <img src="../images/${playerMove}.png" class="move-icon" >
+    // <img src="../images/${computerMove}.png" class="move-icon"> Computer`;
+
+
+    document.querySelector('.js-moves').innerHTML = `you
+    <img src="images/${playerMove}.png" class="move-icon">
+    <img src="images/${computerMove}.png" class="move-icon"> Computer`;
+                
+
+    
 
 
 }
